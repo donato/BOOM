@@ -1,0 +1,19 @@
+<div>
+    {{#each this.tasklist}}
+        <div class="task row">
+            <div class="col-xs-1 task-image">
+                <input type="checkbox">
+            </div>
+            <div class="col-xs-2 task-image">
+                <image src="{{ this.image }}"></image>
+            </div>
+            <div class="col-xs-5">
+                <div class="task-name">{{ this.name }}</div>
+                <div class="task-owner"> by {{ this.owner }}</div>
+            </div>
+
+            <div class="col-xs-2 task-date"> 2d </div>
+
+        </div>
+    {{/each}}
+</div>

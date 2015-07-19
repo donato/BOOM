@@ -1,0 +1,41 @@
+body {
+    width:35em;
+    margin-left:auto;
+    margin-right:auto;
+
+    /*
+    color: #0B99BC
+    */
+    color: white;
+}
+.container {
+    width: 100%;
+    background-color: #D40E52;
+}
+
+
+.task {
+    padding:5px;
+    background-color: #FCE014;
+}
+.task-image img {
+    max-width: 4em;
+    max-height: 4em;
+}
+
+.task-date {
+    float:right;
+    color: #5C2D50;
+    /*
+    #D40E52
+    #FCE014
+    */
+    font-size:2em;
+}
+.task-label {
+    white-space: nowrap;
+}
+.task-owner {
+    color: #5C2D50;
+    white-space: nowrap;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "boom",
+  "version": "1.0.0",
+  "description": "Group task and responsability monitor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donato/BOOM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donato/BOOM/issues"
+  },
+  "homepage": "https://github.com/donato/BOOM#readme",
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "express": "^4.13.1",
+    "grunt": "^0.4.5",
+    "require-text": "0.0.1"
+  }
+}

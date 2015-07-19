@@ -1,3 +1,7 @@
+src/components
+*.iml
+*/Thumbs.db
+
 # Logs
 logs
 *.log

@@ -1,0 +1,16 @@
+<div>
+    {{#each this.streams}}
+    <div class="stream row">
+        <div class="col-xs-1 task-image">
+            <input type="checkbox">
+        </div>
+        <div class="col-xs-2 task-image">
+            <image src="{{ this.image }}"></image>
+        </div>
+        <div class="col-xs-5">
+            <span class="task-name">{{ this.name }}</span>
+            <span class="task-owner"> by {{ this.owner }}</span>
+        </div>
+    </div>
+    {{/each}}
+</div>
